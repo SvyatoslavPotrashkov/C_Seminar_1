@@ -26,7 +26,6 @@ else if (num < -99)
     num = -num % 10;
     Console.WriteLine($"Третья цифра: {num}");
 }
-//Отсюда работает:
 else if (num < 100)
 {
     Console.WriteLine("Третьей цифры нет!");
