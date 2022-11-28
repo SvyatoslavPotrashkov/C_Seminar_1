@@ -13,7 +13,6 @@ string?[] array = new string[arraySize];
 for (int i = 0; i < arraySize; i++)
 {
     Console.WriteLine("Введите символ: ");
-    //int num = Convert.ToInt32(Console.ReadLine());
     string? numString = Console.ReadLine();
     array[i] = numString;
 }
